@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-
-# Bank Reviews Analysis
-
-=======
-
 # Customer Experience Analytics for Fintech Apps
-
-> > > > > > > task-2
 
 ## Task 1: Data Collection and Preprocessing
 

@@ -8,8 +8,6 @@ This project aims to scrape and preprocess user reviews from various bank apps o
 
 ### Requirements
 
-<<<<<<< HEAD
-
 - Python 3.11
 - Libraries:
   - `pandas`
@@ -17,12 +15,12 @@ This project aims to scrape and preprocess user reviews from various bank apps o
 
 ### Installation
 
-1. **Clone the Repository:**
+Clone the Repository:
 
-   git clone https://github.com/metydebebe/bank-reviews-analysis
-   cd bank-reviews-analysis
-   =======
-   Python 3.11
+git clone https://github.com/metydebebe/bank-reviews-analysis
+cd bank-reviews-analysis
+
+Python 3.11
 
 Libraries:
 
@@ -105,5 +103,3 @@ Run the sentiment analysis script to generate sentiment labels and scores.
 Run the thematic analysis script to extract keywords, assign themes, and save combined results.
 
 Results are saved as CSV files
-
-> > > > > > > task-2

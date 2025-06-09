@@ -1,0 +1,26 @@
+;;; 
+Export: Release 21.0.0.0.0 - Production on Mon Jun 9 13:59:05 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Starting "DEMO_USER"."SYS_EXPORT_SCHEMA_01":  demo_user/********@localhost:1521/XEPDB1 DIRECTORY=dump_dir DUMPFILE=bank_reviews.dmp LOGFILE=export.log SCHEMAS=DEMO_USER 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "DEMO_USER"."BANKS"                         6.421 KB       3 rows
+. . exported "DEMO_USER"."REVIEWS"                       171.9 KB    1200 rows
+Master table "DEMO_USER"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for DEMO_USER.SYS_EXPORT_SCHEMA_01 is:
+  C:\APP\METYA\PRODUCT\21C\DBHOMEXE\DUMP\BANK_REVIEWS.DMP
+Job "DEMO_USER"."SYS_EXPORT_SCHEMA_01" successfully completed at Mon Jun 9 14:00:34 2025 elapsed 0 00:01:26

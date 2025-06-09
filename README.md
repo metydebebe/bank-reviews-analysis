@@ -141,3 +141,37 @@ Run the export command from your OS terminal:
 
 expdp demo_user/demouser@localhost:1521/XEPDB1 DIRECTORY=dump_dir DUMPFILE=bank_reviews.dmp LOGFILE=export.log SCHEMAS=DEMO_USER
 Locate the dump file and log in the dumps/ folder of the project.
+
+# Task 4: Insights and Recommendations
+
+## Overview
+
+In this task, we derive actionable insights from the sentiment and thematic analysis of bank app user reviews. We visualize key findings to better understand user satisfaction drivers and pain points, and provide practical recommendations to improve the apps.
+
+## Objectives
+
+Identify at least 2 drivers (e.g., fast navigation) and 2 pain points (e.g., app crashes) supported by data.
+
+Compare customer experience across banks (e.g., Commercial Bank of Ethiopia vs. Bank of Abyssinia).
+
+Create 3 clear and labeled visualizations (e.g., sentiment trends, rating distributions, keyword clouds).
+
+Use a dedicated Git branch (task-4) for development, with commits and pull requests for version control.
+
+## Data and Methods
+
+Combined sentiment labels and thematic categories extracted from user reviews.
+
+Exploded theme lists to analyze frequency and sentiment distribution by bank.
+
+Visualized theme frequencies, sentiment distributions, and word clouds using Matplotlib and Seaborn.
+
+Interpreted findings to identify key drivers and pain points.
+
+## Usage
+
+Open the notebook notebooks/insights_and_recommendations.ipynb.
+
+Run all cells sequentially to reproduce the analysis and visualizations.
+
+Visualizations are saved in the notebooks/figures/ folder.

@@ -104,7 +104,7 @@ Run the thematic analysis script to extract keywords, assign themes, and save co
 
 Results are saved as CSV files
 
-# Task 3: Database Export and Management
+## Task 3: Database Export and Management
 
 ## Overview
 
@@ -142,7 +142,7 @@ Run the export command from your OS terminal:
 expdp demo_user/demouser@localhost:1521/XEPDB1 DIRECTORY=dump_dir DUMPFILE=bank_reviews.dmp LOGFILE=export.log SCHEMAS=DEMO_USER
 Locate the dump file and log in the dumps/ folder of the project.
 
-# Task 4: Insights and Recommendations
+## Task 4: Insights and Recommendations
 
 ## Overview
 

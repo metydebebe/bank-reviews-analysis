@@ -103,3 +103,41 @@ Run the sentiment analysis script to generate sentiment labels and scores.
 Run the thematic analysis script to extract keywords, assign themes, and save combined results.
 
 Results are saved as CSV files
+
+# Task 3: Database Export and Management
+
+## Overview
+
+This task involves exporting the processed bank reviews data from Oracle XE into a dump file (.dmp) using Oracle Data Pump (expdp). This enables backup, sharing, and migration of the database schema and data.
+
+## Steps Taken
+
+Created an Oracle directory object pointing to a physical folder on the Oracle server machine.
+
+Granted read and write privileges on the directory to the database user.
+
+Used the expdp command-line utility to export the schema and data into a .dmp file.
+
+Stored the dump file and export log in a dedicated dumps/ folder within the project for organization and version control.
+
+## Requirements
+
+Oracle Database XE 21c installed and running.
+
+Oracle user with sufficient privileges (DATAPUMP_EXP_FULL_DATABASE role).
+
+Access to Oracle command-line utilities (expdp).
+
+Physical directory on the server machine accessible by Oracle for dump files.
+
+# Usage
+
+Create the directory object and grant privileges:
+
+sql
+CREATE OR REPLACE DIRECTORY dump_dir AS 'C:\app\metya\product\21c\dbhomeXE\dump';
+GRANT READ, WRITE ON DIRECTORY dump_dir TO demo_user;
+Run the export command from your OS terminal:
+
+expdp demo_user/demouser@localhost:1521/XEPDB1 DIRECTORY=dump_dir DUMPFILE=bank_reviews.dmp LOGFILE=export.log SCHEMAS=DEMO_USER
+Locate the dump file and log in the dumps/ folder of the project.
